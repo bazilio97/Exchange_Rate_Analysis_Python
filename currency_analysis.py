@@ -22,7 +22,7 @@ def clean_country_data(df, country_name, val_col_name):
 # Importing data from a csv file
 
 dollar_stat = pd.read_csv(
-    '/Users/bazilio97/Downloads/API_PA/API_PA.NUS.FCRF_DS2_en_csv_v2_21.csv',
+    '/path/to/your/csv/API_PA.NUS.FCRF_DS2_en_csv_v2_21.csv',
     skiprows=4
 )
 
